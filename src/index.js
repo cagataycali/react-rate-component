@@ -34,6 +34,7 @@ function ReactRateComponent(props){
             active: i <= activeCount - 1
             })
         }
+        setRateCount(value)
         return symbols
     }
 
@@ -61,12 +62,12 @@ function ReactRateComponent(props){
 
     return (
         <div style={containerStyle}>
-            <div>
+            <div style={{margin: '0 auto'}}>
                 <RenderSymbols config={config} symbols={symbols} onMouseOver={onMouseOver} onMouseLeave={mouseLeave} handleOnPress={handleOnPress} />
             </div>
             {
-                props.showCount && rateCount!==0 &&
-                <div style={{float: 'left', paddingLeft: `${((props.count-1)*props.size)/2}px`}}>
+                props.showCount &&
+                <div style={{margin: '0 auto'}}>
                     {rateCount}
                 </div>
             }

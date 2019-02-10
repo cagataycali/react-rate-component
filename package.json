@@ -1,6 +1,6 @@
 {
   "name": "react-rate-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react rating component with custom symbol",
   "main": "dist/index.js",
   "scripts": {
@@ -12,11 +12,20 @@
     "deploy": "gh-pages -d examples/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebrugulec/react-rate-component.git"
+  },
+  "homepage": "https://github.com/ebrugulec/react-rate-component#readme",
+  "bugs": {
+    "url": "https://github.com/ebrugulec/react-rate-component/issues"
+  },
   "keywords": [
     "rating",
     "react",
     "component",
-    "react-component"
+    "react-component",
+    "react-hooks"
   ],
   "author": "Ebru Gulec",
   "license": "MIT",
