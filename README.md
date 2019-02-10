@@ -1,4 +1,4 @@
-# react-rate-component :star:
+# react-rate-component
 React Hooks Rate Component
 
 [![npm version](https://badge.fury.io/js/react-rate-component.svg)](https://www.npmjs.com/package/react-rate-component/)
