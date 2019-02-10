@@ -55,7 +55,7 @@ class Bar extends Component {
 ## Callbacks
 
 | Callback | Description | Type |
-| -------- | ----------- | ------------- | ---- |
+| -------- | ----------- | ------------- |
 | `onChange(new_rating)` | Will be invoked any time the rating is changed | function (value) {} |
 
 ### Todo
