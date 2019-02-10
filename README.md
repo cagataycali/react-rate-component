@@ -4,7 +4,7 @@ React Hooks Rate Component
 [![npm version](https://badge.fury.io/js/react-rate-component.svg)](https://www.npmjs.com/package/react-rate-component/)
 
 ## Demo
-> React Rate Component - [Demo](https://github.com/ebrugulec/react-rate-component)
+> React Rate Component - [Demo](https://ebrugulec.com/react-rate-component)
 
 ## Install
 
